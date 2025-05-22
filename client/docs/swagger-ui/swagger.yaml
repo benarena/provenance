@@ -1021,8 +1021,8 @@ paths:
         GetAccountCommitments gets all the funds in an account that are
         committed to any market.
 
-        Optionally, you can filter the results by a specific asset denomination
-        using the `denom` query parameter.
+        Optionally, you can filter the results for a specific denomination using
+        the `denom` query parameter.
       operationId: GetAccountCommitments
       responses:
         '200':
